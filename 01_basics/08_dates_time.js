@@ -12,4 +12,7 @@ let todaysDate = new Date() //type of date is OBJECT
 let myTimeStamp = Date.now()
 console.log(myTimeStamp.toLocaleString());
 
+console.log(Math.floor(Date.now()/1000)) //converting ms into s
+
+
 
