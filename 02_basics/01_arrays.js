@@ -35,4 +35,4 @@ console.log(myArr)
 console.log(myArr.splice(1,3));
 console.log(myArr)
 
-//Important: when slice() function is performed upon the copy of the array but when splice() function is performed it changes the original array
+//Important: slice() function is performed upon the copy of the array but when splice() function is performed it changes the original array
