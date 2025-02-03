@@ -9,7 +9,7 @@ let user = {
     }
 }
 
-console.log(user.userName.fullName);
+//console.log(user.userName.fullName);
 
 let user2 = {
     name: "abc",
@@ -31,11 +31,23 @@ let user2 = {
 // console.log(obj3);
 // console.log(obj4);
 
-console.log(Object.keys(user2)); //logs out keys present in the object
-console.log(Object.values(user2)); //logs out values of the keys of the object
-console.log(Object.entries(user2)); //logs out keys and it's values in a separate array
-console.log(user2.hasOwnProperty('isLoggedIn')); //tells whether a property is available in object or not
+// console.log(Object.keys(user2)); //logs out keys present in the object
+// console.log(Object.values(user2)); //logs out values of the keys of the object
+// console.log(Object.entries(user2)); //logs out keys and it's values in a separate array
+// console.log(user2.hasOwnProperty('isLoggedIn')); //tells whether a property is available in object or not
 
+/*--------------------Object Destructuring------------------------ */
+
+let sampleObject = {
+    name: "Shiv",
+    contactnumber: 8045424552,
+    city: "Bulandshahr"
+}
+
+let {city} = sampleObject
+console.log(city);
+let {contactnumber: number} = sampleObject
+console.log(number);
 
 
 
