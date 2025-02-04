@@ -33,3 +33,32 @@ function isUserLoggedIn(username){
     
 // console.log(calculateVal(50, 100, 150, 200));
 
+/*-------------------Objects in Function------------------------ */
+
+let obj1 = {
+    name: "Shiv",
+    age: 27
+}
+
+function func1(objRef){
+    console.log(`Name is ${objRef.name} and age is ${objRef.age}`);   
+}
+
+// func1(obj1) //method 1
+
+// func1({
+//     name: "abc",
+//     age: 20
+// }) //method 2 passing values directly 
+
+/*----------------------Arrays in Function------------------- */
+
+let arr1 = [10,20,30,40,50]
+
+function func2(getArr){
+    return getArr[2]
+}
+
+//console.log(func2(arr1)); //method 1
+console.log(func2([10,20,50,30,60])); //method 2 passing values directly
+
